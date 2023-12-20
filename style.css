@@ -48,7 +48,18 @@ sky {
   animation-name: drive;
   animation-duration: 3s;
   animation-fill-mode: both;
-  animation-iteration-count: 3;
+  animation-iteration-count: infinite;
+}
+
+.luigi {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  animation-name: drive;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
 }
 
 /* KEYFRAMES */
